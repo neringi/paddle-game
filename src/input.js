@@ -10,6 +10,9 @@ export default class InputHandler {
           // alert("move right");
           paddle.moveRight();
           break;
+
+        case "Escape":
+          alert("pause");
       }
     });
 
